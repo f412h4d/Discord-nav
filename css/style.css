@@ -1,0 +1,53 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+.nav {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 6.5rem;
+   float: left;
+   background-color: #212226;
+   height: 100vh;
+}
+
+i {
+   margin:15px;
+   border-radius: 50%;
+   padding: 20px;
+   font-size: 2rem;
+   background-color: #303136;
+   color: #008568;
+}
+
+.tooltip {
+   float: left;
+   margin: 1.5rem 1rem;
+   background: #212226;
+   color: #fff;
+   padding: 10px 20px;
+   border-radius: 10px;
+   display: none;
+}
+
+.nav:hover + .tooltip {
+   display: block;
+}
+
+.fire {
+   padding: 20px 24px;
+   border-radius: 1rem;
+   background: #008568;
+   color: #fff;
+}
+
+.add {
+   padding: 20px 22px;
+}
+
+.lightning {
+   padding: 20px 24px;
+}
+
